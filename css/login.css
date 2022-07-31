@@ -1,0 +1,61 @@
+body{
+    background: url(../image/login_bg.jpg) no-repeat;
+    background-size: 100%;
+  
+}
+a{
+    text-decoration: none;
+}
+.box{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.box h1{
+    height: 50px;
+    line-height: 50px;
+    color: darkcyan;
+    text-align: center;
+    background-color: yellowgreen;
+
+}
+.layui-form{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+.layui-form-item{
+    position: relative;
+}
+.layui-form-item input{
+padding-left: 30px;
+}
+.layui-form button{
+    background-color: #1E9FFF;
+}
+.goRegister{
+    float: right;
+}
+.register{
+    display: none;
+}
+i{
+position: absolute;
+left: 10px;
+top: 10px;
+
+}
+#alert{
+    position: absolute;
+    z-index: 1;
+    padding: 10px 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0, .3);
+    display: none;
+}
