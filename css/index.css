@@ -1,0 +1,30 @@
+i{
+   padding: 10px;
+}
+.layui-hide-xs{
+    position: absolute;
+}
+.layui-hide-xs div{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    border-radius:50%;
+    background-color: #cccccc;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+}
+.layui-hide-xs span{
+    font-size: 12px;
+     vertical-align: middle;
+}
+iframe{
+    padding: 10px;
+     background-color:#f0f2f5;
+     width: 100%;
+     height: 100%;
+}

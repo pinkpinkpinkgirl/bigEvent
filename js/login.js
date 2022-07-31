@@ -42,7 +42,7 @@ $(function(){
                   return kuaiji(response.message)
                 }
                 kuaiji(response.message)
-                localStorage.setItem('token',response.token)
+                sessionStorage.setItem('token',response.token)
                 location.href='./index.html'
                 
             }
